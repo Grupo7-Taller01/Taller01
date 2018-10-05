@@ -53,7 +53,7 @@ public class GUIView extends JPanel {
 
 		this.gameView.setBackground(Color.CYAN);
 
-		this.gameView.setBackground(Color.lightGray);
+		this.gameView.setBackground(Color.CYAN);
 
 
 		// Set the layout on myself
@@ -69,7 +69,7 @@ public class GUIView extends JPanel {
 		// listener on that button
 
 
-		this.startGameButton = new JButton("Let’s Play");
+		this.startGameButton = new JButton("Empezar");
 
 		this.startGameButton.addActionListener(new StartGameListener());
 		this.guiPanel.add(this.startGameButton);
